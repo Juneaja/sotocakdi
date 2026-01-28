@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Soto Ayam Cak Di — Lamongan</title>
+  <meta name="description" content="">
+
+  <!-- Font & Style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <!-- GLightbox CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.1/css/glightbox.min.css" integrity="sha512-2Fjv8L0G3YkL9xkcSNq0rM2aBrK5hVAUABfLGxma5W35xkfXaaS7GIK0nW2q+kKO4KVdX07rlLyW1+di6xOzZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header fixed">
+  <div class="container header-inner">
+    <div class="brand" onclick="scrollToId('home')">
+       <img src="assets/logo.jpg" alt="Logo Trans_Wistara" class="brand-logo" />
+      <span class="brand-name">SOTO AYAM CAK DI LAMONGAN</span>
+    </div>  
+
+    <nav class="nav-desktop">
+      <button onclick="scrollToId('home')">Home</button>
+      <button onclick="scrollToId('catalog')">Menu Soto</button>
+      <button onclick="scrollToId('location')">Lokasi</button>
+    </nav>
+
+    <div class="header-cta">
+      <a class="btn btn-primary" href="https://wa.me/6285842929151" target="_blank" rel="noopener">
+        Hubungi Kami
+      </a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle Menu">
+      <i data-feather="menu"></i>
+    </button>
+  </div>
+
+  <nav class="nav-mobile" id="navMobile">
+    <button onclick="scrollToId('home')">Home</button>
+    <button onclick="scrollToId('catalog')">Menu Soto</button>
+    <button onclick="scrollToId('location')">Lokasi</button>
+    <a class="btn btn-primary w-full" href="https://wa.me/6285842929151" target="_blank" rel="noopener">
+      Hubungi Kami
+    </a>
+  </nav>
+</header>
+
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <img class="hero-bg" src="assets/galeri/bg.jpg" alt="Perumahan Modern" />
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <h1>Soto Ayam Cak Di – Soto legendaris dengan rasa asli yang bikin rindu</h1>
+    <p>Nikmati kelezatan Soto Ayam Cak Di, racikan khas yang selalu bikin balik lagi.</p>
+    <p>Alamat : jl.Sunan giri,Tumenggungan (bringin kopi,samping lampu merah perempatan terminal lamongan)</p>
+    <div class="hero-actions">
+      <button class="btn btn-outline" onclick="scrollToId('catalog')">Lihat Menu Soto</button>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Mengapa Harus Memilih Soto Ayam Cak Di?</h2>
+    <div class="grid grid-3">
+      <div class="card feature">
+        <div class="icon">🚘</div>
+        <h3>Tempat Strategis</h3>
+        <p>Berada di samping lampu merah perempatan Terminal Lamongan(warkop beringin)</p>
+      </div>
+      
+      <div class="card feature">
+        <div class="icon">💳</div>
+        <h3>Harga Bersahabat</h3>
+        <p>Nggak bikin kantong Bolong!.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="container cta-inner">
+    <div>
+      <h2>Lapar? Soto Cak Di jawabannya! Kuah gurih, isian melimpah, bikin nagih dari suapan pertama.</h2>
+      <p>Hubungi kami via WhatsApp.</p>
+    </div>
+    <a class="btn btn-light" target="_blank" rel="noopener" href="https://wa.me/6285842929151">Hubungi via WhatsApp</a>
+  </div>
+</section>
+
+<!-- Booking Form -->
+<section id="booking" class="section">
+  <div class="container narrow">
+    <h2 class="section-title">Beli sekarang</h2>
+    <p class="section-desc">Isi formulir di bawah ini, kami akan menghubungi Anda via WhatsApp.</p>
+
+    <div class="card">
+      <form id="bookingForm" class="form">
+        <div class="form-row">
+          <label for="name">Nama Lengkap</label>
+          <input id="name" name="name" type="text" placeholder="Masukkan nama lengkap" required />
+        </div>
+        
+        <div class="form-row">
+          <label for="destination">Alamat Lengkap</label>
+          <input id="destination" name="destination" type="text" placeholder="Contoh: jl.raya lamongrejo 100" required />
+        </div>
+        <div class="form-row">
+          <label for="destination">Jumlah Pesanan</label>
+          <input id="destination" name="destination" type="text" placeholder="Jumlah Pesanan" required />
+        </div>
+        
+        <div class="form-row">
+          <label for="carType">Pilihan Menu</label>
+          <select id="carType" name="carType" required>
+            <option value="">Pilih Menu</option>
+            <option>Soto Ayam biasa</option>
+            <option>Soto Ayam ceker</option>
+            <option>Soto Ayam berutu</option>
+            <option>Soto Ayam Kepala</option>
+            <option>Soto Ayam jerohan</option>
+            <option>Soto Ayam kulit</option>
+            <option>Soto Ayam SPESIAL MIX</option>
+        
+        
+          </select>
+        </div>
+        <button class="btn btn-primary btn-lg" type="submit">Kirim ke WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Catalog -->
+<section id="catalog" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Menu Soto Ayam Cak Di</h2>
+    <p class="section-desc">Pilih Menu Soto Ayam.</p>
+    <div id="catalogGrid" class="grid grid-4"></div>
+  </div>
+</section>
+
+<!-- Packages & Terms (Accordion) -->
+<section id="packages" class="section">
+  <div class="container narrow">
+    <h2 class="section-title">Informasi Soto Ayam Cak Di</h2>
+    <p class="section-desc">Soto Ayam Cak Di</p>
+
+    <div class="accordion">
+      <details>
+        <summary>
+          <div class="summary-left">📅</div>
+          <div class="summary-right">
+            <h3>Kenapa Harus Beli</h3>
+            <span>Soto Cak Di?</span>
+          </div>
+        </summary>
+        <div class="accordion-body">
+          <ul>
+            <li>Lokasi strategis</li>
+            <li>Kuah gurih khas, dimasak lama dengan resep rahasia</li>
+            <li>Bahan segar pilihan, daging empuk dan melimpah</li>
+            <li>Rasa konsisten, dari dulu sampai sekarang</li>
+            <li>Porsi pas, mengenyangkan</li>
+            <li>Disajikan hangat, cocok disantap kapan saja</li>
+            <li>Harga ramah di kantong</li>
+            <li>Cocok untuk semua kalangan</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <div class="summary-left">📄</div>
+          <div class="summary-right">
+            <h3>Syarat &amp; Ketentuan</h3>
+            <span>Mohon dibaca sebelum melakukan Pembelian.</span>
+          </div>
+        </summary>
+        <div class="accordion-body">
+          <ul>
+            <li>1. pembeli harus jujur</li>
+            <li>2. setelah order tidak boleh dicancel,karena sudah dibuatkan</li>
+            <li>3. kurir ditanggung pembeli</li>
+            
+          </ul>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+
+<!-- Lokasi & Tentang Kami -->
+<section id="location" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Tentang Soto Cak Di</h2>
+
+    <div class="grid grid-2 gap-lg align-start">
+      <div class="card map-card">
+        <iframe
+          title="Peta Trans Wistara"
+          src="https://www.google.com/maps/embed?pb=!4m14!1m7!3m6!1s0x2e77f0b2f360079f:0x8fd4797dc49fa630!2sTaman+Alun-Alun+Kota+Lamongan!8m2!3d-7.1203566!4d112.4156448!16s%2Fg%2F1hm1q0jbm!3m5!1s0x2e77f0b2f360079f:0x8fd4797dc49fa630!8m2!3d-7.1203566!4d112.4156448!16s%2Fg%2F1hm1q0jbm?entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D"
+          width="100%" height="100%" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="about">
+        <h3>Tentang Soto Cak Di</h3>
+        <p>Soto Cak Di hadir dengan kuah gurih khas dan bahan segar pilihan. Racikan resep autentik yang dimasak dengan sepenuh hati untuk menghadirkan rasa soto terbaik di setiap mangkuk.</p>
+        <p>Nikmati kelezatan Soto Cak Di dengan kuah kaya rempah, daging empuk, dan cita rasa yang selalu bikin rindu. Cocok disantap kapan saja, bersama keluarga maupun teman.</p> 
+        <p>hubungi Kami via Whatsapp.</p> 6285842929151
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Galeri foto: bungkus galeri dalam section khusus untuk judul dan tata letak -->
+  <div class="gallery-section">
+    <h3 class="gallery-title">Galeri Menu Soto Cak Di</h3>
+    <div class="gallery">
+      <a href="assets/galeri/galeri1.jpg" class="glightbox" data-gallery="rentcar">
+        <img src="assets/galeri/galeri1.jpg" alt="Foto rumah 1" />
+      </a>
+      <a href="assets/galeri/galeri2.jpg" class="glightbox" data-gallery="rentcar">
+        <img src="assets/galeri/galeri2.jpg" alt="Foto rumah 2" />
+      </a>
+      <a href="assets/galeri/galeri3.jpg" class="glightbox" data-gallery="rentcar">
+        <img src="assets/galeri/galeri3.jpg" alt="Foto rumah 3" />
+      </a>
+      <a href="assets/galeri/galeri4.jpg" class="glightbox" data-gallery="rentcar">
+        <img src="assets/galeri/galeri4.jpg" alt="Foto rumah 4" />
+      </a>
+      <a href="assets/galeri/galeri5.jpg" class="glightbox" data-gallery="rentcar">
+        <img src="assets/galeri/galeri5.jpg" alt="Foto rumah 5" />
+      </a>
+      <a href="assets/galeri/galeri6.jpg" class="glightbox" data-gallery="rentcar">
+        <img src="assets/galeri/galeri6.jpg" alt="Foto rumah 6" />
+      
+      
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand brand-footer">
+        <img src="assets/logo.jpg" alt="Logo Ababil" class="brand-logo" />
+        <span>Soto Cak Di Lamongan</span>
+      </div>
+      <p class="muted">Makanan terenak dan termurah di Lamongan dan sekitarnya.</p>
+    </div>
+    <div>
+      <h4>Kontak</h4>
+      <ul class="muted">
+        <li>📍 Lamongan,Jawa Timur</li>
+        <li>📞 <a href="https://wa.me/6285842929151" target="_blank">WhatsApp: +6285-8429-29151</a></li>
+        
+      </ul>
+    </div>
+    <div>
+      <h4>Menu Cepat</h4>
+      <div class="quick-links">
+        <button onclick="scrollToId('home')">Home</button>
+        <button onclick="scrollToId('catalog')">Menu Soto</button>
+        <button onclick="scrollToId('packages')">Informasi</button>
+        <button onclick="scrollToId('location')">Lokasi</button>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">© 2026 Ngoding_Asik. All rights reserved.</div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<!-- Icons replacement -->
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+  feather.replace();
+</script>
+<!-- GLightbox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.1/js/glightbox.min.js" integrity="sha512-VBb7K7v0NFk4QXg6UwLse6pUQ+AvJUrxkTeh85c9WjzvfEYoMAHidRCHfYdXwD7inL4CuF0xEfWadZTxKq8MOw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
