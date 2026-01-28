@@ -85,8 +85,6 @@ const cars = [
       "assets/mobil/hills3.jpg"
     ],
     priceDaily: "Rp18.000",
-    priceWeekly: "_",
-    priceMonthly: "cerme,Gresik",
   },
 
 ];
