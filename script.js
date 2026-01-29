@@ -28,7 +28,7 @@ if (bookingForm) {
     e.preventDefault();
     const fd = new FormData(bookingForm);
     const data = Object.fromEntries(fd.entries());
-    const message = `*Assallamuallaikum, Soto Ayam Cak Di, saya ingin pesan soto ayam:*%0A%0A*Nama:* ${data.name}%0A*Alamat Lengkap:* ${data.destination}%0A*Jumlah Pesanan:* ${data.jml}%0A*Pilihan Menu:* ${data.carType}%0A%0ATerima kasih!`;
+    const message = `*Assallamuallaikum, Soto Ayam Cak Di, saya ingin pesan soto ayam:*%0A%0A*Nama:* ${data.name}%0A*Alamat Lengkap:* ${data.destination}%0A*Jumlah Pesanan:* ${data.jml}%0A*Nomer meja sesuai barcode:* ${data.meja}%0A*Pilihan Menu:* ${data.carType}%0A%0ATerima kasih!`;
     const wa = `https://wa.me/6285842929151?text=${message}`;
     window.open(wa, '_blank');
   });
