@@ -41,8 +41,8 @@ const cars = [
     name: "SOTO AYAM BIASA",
     images: [
       "assets/mobil/innova1.jpg",
-      "assets/mobil/innova2.jpg",
-      "assets/mobil/innova3.jpg"
+      "assets/mobil/innova1.jpg",
+      "assets/mobil/innova1.jpg"
     ],
     priceDaily: "Rp14.000",
    
@@ -51,8 +51,8 @@ const cars = [
     name: "SOTO JEROHAN",
     images: [
       "assets/mobil/allbrio1.jpg",
-      "assets/mobil/allbrio2.jpg",
-      "assets/mobil/allbrio3.jpg"
+      "assets/mobil/allbrio1.jpg",
+      "assets/mobil/allbrio1.jpg"
     ],
     priceDaily: "Rp14.000",
     
@@ -61,8 +61,8 @@ const cars = [
     name: "SOTO KULIT",
     images: [
       "assets/mobil/allbrv1.jpg",
-      "assets/mobil/allbrv2.jpg",
-      "assets/mobil/allbrv3.jpg"
+      "assets/mobil/allbrv1.jpg",
+      "assets/mobil/allbrv1.jpg"
     ],
     priceDaily: "Rp14.000",
     
@@ -71,8 +71,8 @@ const cars = [
     name: "SOTO BERUTU",
     images: [
       "assets/mobil/jazz1.jpg",
-      "assets/mobil/jazz2.jpg",
-      "assets/mobil/jazz3.jpg"
+      "assets/mobil/jazz1.jpg",
+      "assets/mobil/jazz1.jpg"
     ],
     priceDaily: "Rp14.000",
     
@@ -80,45 +80,45 @@ const cars = [
         {
     name: "SOTO AYAM SPESIAL MIX+KEPALA",
     images: [
-      "assets/mobil/hills1.jpg",
-      "assets/mobil/hills2.jpg",
-      "assets/mobil/hills3.jpg"
+      "assets/mobil/kepala.jpg",
+      "assets/mobil/kepala.jpg",
+      "assets/mobil/kepala.jpg"
     ],
     priceDaily: "Rp19.000",
   },
        {
     name: "SOTO AYAM SPESIAL MIX+BERUTU",
     images: [
-      "assets/mobil/hills1.jpg",
-      "assets/mobil/hills2.jpg",
-      "assets/mobil/hills3.jpg"
+      "assets/mobil/berutu.jpg",
+      "assets/mobil/berutu.jpg",
+      "assets/mobil/berutu.jpg"
     ],
     priceDaily: "Rp19.000",
   },
        {
     name: "SOTO AYAM SPESIAL MIX+JEROHAN",
     images: [
-      "assets/mobil/hills1.jpg",
-      "assets/mobil/hills2.jpg",
-      "assets/mobil/hills3.jpg"
+      "assets/mobil/jerohan.jpg",
+      "assets/mobil/jerohan.jpg",
+      "assets/mobil/jerohan.jpg"
     ],
     priceDaily: "Rp19.000",
   },
       {
     name: "SOTO AYAM SPESIAL MIX+KULIT",
     images: [
-      "assets/mobil/hills1.jpg",
-      "assets/mobil/hills2.jpg",
-      "assets/mobil/hills3.jpg"
+      "assets/mobil/kulit.jpg",
+      "assets/mobil/kulit.jpg",
+      "assets/mobil/kulit.jpg"
     ],
     priceDaily: "Rp19.000",
  },
       {
     name: "SOTO AYAM SPESIAL MIX+SAYAP",
     images: [
-      "assets/mobil/hills1.jpg",
-      "assets/mobil/hills2.jpg",
-      "assets/mobil/hills3.jpg"
+      "assets/mobil/sayap.jpg",
+      "assets/mobil/sayap.jpg",
+      "assets/mobil/sayap.jpg"
     ],
     priceDaily: "Rp19.000",
   },
@@ -126,27 +126,27 @@ const cars = [
     {
     name: "SOTO AYAM SPESIAL MIX+TELUR MUDA",
     images: [
-      "assets/mobil/hills1.jpg",
-      "assets/mobil/hills2.jpg",
-      "assets/mobil/hills3.jpg"
+      "assets/mobil/telur.jpg",
+      "assets/mobil/telur.jpg",
+      "assets/mobil/telur.jpg"
     ],
     priceDaily: "Rp17.000",
   },
     {
     name: "SOTO AYAM SPESIAL MIX+TELUR REBUS",
     images: [
-      "assets/mobil/hills1.jpg",
-      "assets/mobil/hills2.jpg",
-      "assets/mobil/hills3.jpg"
+      "assets/mobil/rebus.jpg",
+      "assets/mobil/rebus.jpg",
+      "assets/mobil/rebus.jpg"
     ],
     priceDaily: "Rp17.000",
   },
   {
     name: "SOTO AYAM SPESIAL MIX+CEKER",
     images: [
-      "assets/mobil/hills1.jpg",
-      "assets/mobil/hills2.jpg",
-      "assets/mobil/hills3.jpg"
+      "assets/mobil/ceker.jpg",
+      "assets/mobil/ceker.jpg",
+      "assets/mobil/ceker.jpg"
     ],
     priceDaily: "Rp17.000",
   },
