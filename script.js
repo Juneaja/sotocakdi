@@ -44,7 +44,7 @@ const cars = [
       "assets/mobil/innova2.jpg",
       "assets/mobil/innova3.jpg"
     ],
-    priceDaily: "Rp13.000",
+    priceDaily: "Rp14.000",
    
   },
     {
@@ -54,7 +54,7 @@ const cars = [
       "assets/mobil/allbrio2.jpg",
       "assets/mobil/allbrio3.jpg"
     ],
-    priceDaily: "Rp13.000",
+    priceDaily: "Rp14.000",
     
   },
       {
@@ -64,7 +64,7 @@ const cars = [
       "assets/mobil/allbrv2.jpg",
       "assets/mobil/allbrv3.jpg"
     ],
-    priceDaily: "Rp13.000",
+    priceDaily: "Rp14.000",
     
   },
         {
@@ -74,19 +74,83 @@ const cars = [
       "assets/mobil/jazz2.jpg",
       "assets/mobil/jazz3.jpg"
     ],
-    priceDaily: "Rp13.000",
+    priceDaily: "Rp14.000",
     
   },
         {
-    name: "SOTO AYAM SPESIAL MIX",
+    name: "SOTO AYAM SPESIAL MIX+KEPALA",
     images: [
       "assets/mobil/hills1.jpg",
       "assets/mobil/hills2.jpg",
       "assets/mobil/hills3.jpg"
     ],
-    priceDaily: "Rp18.000",
+    priceDaily: "Rp19.000",
+  },
+       {
+    name: "SOTO AYAM SPESIAL MIX+BERUTU",
+    images: [
+      "assets/mobil/hills1.jpg",
+      "assets/mobil/hills2.jpg",
+      "assets/mobil/hills3.jpg"
+    ],
+    priceDaily: "Rp19.000",
+  },
+       {
+    name: "SOTO AYAM SPESIAL MIX+JEROHAN",
+    images: [
+      "assets/mobil/hills1.jpg",
+      "assets/mobil/hills2.jpg",
+      "assets/mobil/hills3.jpg"
+    ],
+    priceDaily: "Rp19.000",
+  },
+      {
+    name: "SOTO AYAM SPESIAL MIX+KULIT",
+    images: [
+      "assets/mobil/hills1.jpg",
+      "assets/mobil/hills2.jpg",
+      "assets/mobil/hills3.jpg"
+    ],
+    priceDaily: "Rp19.000",
+ },
+      {
+    name: "SOTO AYAM SPESIAL MIX+SAYAP",
+    images: [
+      "assets/mobil/hills1.jpg",
+      "assets/mobil/hills2.jpg",
+      "assets/mobil/hills3.jpg"
+    ],
+    priceDaily: "Rp19.000",
   },
 
+    {
+    name: "SOTO AYAM SPESIAL MIX+TELUR MUDA",
+    images: [
+      "assets/mobil/hills1.jpg",
+      "assets/mobil/hills2.jpg",
+      "assets/mobil/hills3.jpg"
+    ],
+    priceDaily: "Rp17.000",
+  },
+    {
+    name: "SOTO AYAM SPESIAL MIX+TELUR REBUS",
+    images: [
+      "assets/mobil/hills1.jpg",
+      "assets/mobil/hills2.jpg",
+      "assets/mobil/hills3.jpg"
+    ],
+    priceDaily: "Rp17.000",
+  },
+  {
+    name: "SOTO AYAM SPESIAL MIX+CEKER",
+    images: [
+      "assets/mobil/hills1.jpg",
+      "assets/mobil/hills2.jpg",
+      "assets/mobil/hills3.jpg"
+    ],
+    priceDaily: "Rp17.000",
+  },
+  
 ];
 
 // Render katalog
